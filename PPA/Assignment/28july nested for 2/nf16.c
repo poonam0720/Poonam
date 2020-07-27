@@ -7,11 +7,11 @@ void main()
     scanf("%d",&n);
     for(int row=n;row>=1;row--)
     {
-       for(int space=n;space>row;space--)
+       for(int space=1;space<row;space++)
        {
            printf("  ");
        }
-       for(int col=1;col<=row;col++)
+       for(int col=row;col<=n;col++)
        {
            printf("%d ",i);
            i++;
@@ -25,9 +25,10 @@ void main()
 
 Enter number=
 4
-1 2 3 4 
-  5 6 7 
-    8 9 
-     10 
+      1 
+    2 3 
+  4 5 6 
+7 8 9 10 
+
 
 */
