@@ -21,7 +21,7 @@ int main()
        }
        else
        {
-          printf("Number is %d\n",rev);
+          printf("Number is %d\n",org);
        }
    }while(n>0);
      return 0;
@@ -38,11 +38,11 @@ Enter number=
 Eg3:
 Enter number=
 675
-Number is 576
+Number is 675
 
 Eg4:
 Enter number=
 987
-Number is 789
+Number is 987
 
 */
