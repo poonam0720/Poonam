@@ -16,6 +16,7 @@ int main(){
      iptr1 = iptr1 + 1;
      printf("%d\n",*iptr1);//70
      */
+     printf("%p\n",iptr1);//10
      
      iptr1 = iptr1 + 2;
      printf("%p\n",iptr1);//  address
