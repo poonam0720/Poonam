@@ -8,14 +8,15 @@ int main(){
       
       char *cptr1 = &ch1;
       char *cptr2 = &ch2;
+      char *ansptr;
       
-      cptr1 = cptr1 + 1;
+      ansptr = cptr1 + 1;
       
-      printf("%c",*cptr1);
+      printf("%c",*ansptr);
       
-      cptr2 = cptr2 + 1;
+      ansptr = cptr2 + 1;
       
-      printf("%c",*cptr2);
+      printf("%c",*ansptr);
       
       return 0;
 }
