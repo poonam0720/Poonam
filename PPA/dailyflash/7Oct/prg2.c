@@ -10,9 +10,9 @@ int main() {
       int arr2[row][col];
       int arr3[row][col];
       
-      int *ptr1 = arr1;
+   /*   int *ptr1 = arr1;
       int *ptr2 = arr2;
-      int *ptr3 = arr3;
+      int *ptr3 = arr3;*/
       
       printf("Enter matrix 1 elements=\n");
       for(int i=0; i<row; i++){
