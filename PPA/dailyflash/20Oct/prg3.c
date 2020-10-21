@@ -11,7 +11,7 @@ void main()  {
      
      ans = neon(num);
      
-     if(ans == num){
+     if(ans ==0){
      
           printf("Neon number.\n");
      }
@@ -24,15 +24,31 @@ void main()  {
 
 int neon(int n)  {
 
-    int square,sum = 0;
+    int sum = 0;
     
-    square = (n * n) ;
+    int square = (n * n) ;
     
-    while(square != 0)  {
+    while(square)  {
     
-          sum = (sum + (square % 10));
-          square = (square / 10);
+          int rem = square % 10;
+          square = square / 10;
+          sum = sum + rem;
     }
     
-    return (sum == n);
+   if(sum == n) {
+   
+        return 0;
+   }
+   else{
+   
+        return 1;
+   }
 }
+
+/*
+
+Enter number=
+9
+Neon number.
+
+*/
