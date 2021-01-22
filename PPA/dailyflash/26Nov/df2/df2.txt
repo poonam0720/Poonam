@@ -1,0 +1,6 @@
+Output:
+
+This is from file 1.
+This is from file 2.
+This is from file 3.
+
